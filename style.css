@@ -1,0 +1,65 @@
+body {
+    font-family: "Kalam", cursive;
+    margin: 0px auto;
+    font-size: large;
+  }
+  
+  :root {
+    --primary: #facc15;
+    --secondary: rgb(14, 4, 4);
+  }
+  body{
+    background-color: #f2e6b5;
+  }
+
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100vh - 4rem - 4rem);
+  }
+  
+  button {
+    display: block;
+    font-size: medium;
+    font-family: "Kalam", cursive;
+    color: var(--secondary);
+    background-color: var(--primary);
+    width: max-content;
+    min-width: auto;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    margin: 2rem;
+    cursor: pointer;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: "Kalam", cursive;
+    font-size: medium;
+    text-align: center;
+  }
+
+  #output {
+    border: 1px solid var(--secondary);
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: "Kalam", cursive;
+    font-size: medium;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: var(--primary);
+    padding: 1rem 0rem;
+    font-size: 2rem;
+    color: var(--secondary);
+    text-align: center;
+  }
